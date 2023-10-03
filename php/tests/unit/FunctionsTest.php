@@ -46,10 +46,10 @@ class FunctionsTest extends \Codeception\Test\Unit
     }
 
     public function test242Digits(){
-        $this->assertEquals(3,digits(123));
-        $this->assertEquals(1,digits(1));
-        $this->assertEquals(5,digits(12324));
-        $this->assertEquals(5,digits(-12324));
+        $this->assertEquals(3,digitos(123));
+        $this->assertEquals(1,digitos(1));
+        $this->assertEquals(5,digitos(12324));
+        $this->assertEquals(5,digitos(-12324));
 
     }
 
