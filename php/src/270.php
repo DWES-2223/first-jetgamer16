@@ -2,7 +2,7 @@
 <html lang="es">
 <body>
 <?php
-include('270a.php')
+include_once('270a.php')
 ?>
 </body>
 </html>

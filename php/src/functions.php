@@ -179,7 +179,7 @@ function vell($array){
     $masViejo = null;
 
     foreach ($array as $llave => $fecha){
-        $fechaIngles = fecha_ingles($fecha);
+        $fechaIngles = fecha_inglesa($fecha);
         $fechaConvertida = strtotime($fechaIngles);
         if($fechaConvertida < $viejo || $viejo === null){
             $viejo = $fechaConvertida;
@@ -189,7 +189,7 @@ function vell($array){
     return $masViejo;
 }
 
-function fecha_ingles($date): string
+function fecha_inglesa($date): string
 {
     $fechaPartida = explode('.',$date);
     return $fechaPartida[2] . '/' . $fechaPartida[1] . '/' . $fechaPartida[0];
@@ -203,17 +203,17 @@ function laureado($array){
     return $valorMasRepetido[0];
 }
 
-function anyo($fecha){
+function any($fecha){
     $fechaPartida = explode('.',$fecha);
     return $fechaPartida[2];
 }
 
-function joven($nacimientos, $fechas){
+function jove($nacimientos, $fechas){
     $atletaMasJoven = null;
     $menorDiferencia = null;
     foreach ($nacimientos as $indice => $natalici){
         $fecha = $fechas[$indice];
-        $anyoRecord = anyo($fecha);
+        $anyoRecord = any($fecha);
         $diferencia = $anyoRecord - intval($natalici);
         if ($diferencia < $menorDiferencia || $menorDiferencia === null){
             $menorDiferencia = $diferencia;

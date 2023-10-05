@@ -3,6 +3,7 @@ tests/acceptance/ArraysCest.php:try233WorksTest
 tests/acceptance/ArraysCest.php:try234WorksTest
 tests/acceptance/ArraysCest.php:try235WorksTest
 tests/acceptance/BuclesCest.php:try227WorksTest
+tests/acceptance/ExamenCest.php:try270WorksTest
 tests/acceptance/FuncionsCest.php:try244WorksTest
 tests/acceptance/FuncionsCest.php:try245WorksTest
 tests/acceptance/FuncionsCest.php:try246WorksTest

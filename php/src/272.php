@@ -10,22 +10,22 @@ global $records;
 $fechas = array_column_ext($records,'data',-1);
 $club = array_column_ext($records,'club',-1);
 $ciudades = array_column_ext($records,'lloc',-1);
-$nacimientos = array_column_ext($records,'natalici',-1);
+$nacimiento = array_column_ext($records,'natalici',-1);
 $atletas = array_column_ext($records,'atleta',-1);
 
-$recorMasViejo = vell($fechas);
+$recordMasViejo = vell($fechas);
 $clubMasLaureado = laureado($club);
 $ciutatMasTitulos = laureado($ciudades);
 $personaMasLaureada = laureado($atletas);
-$atletaMasJoven = joven($nacimientos,$fechas);
+$atletaMasJoven = jove($nacimiento,$fechas);
 $nombreAtletasMasJoven = '';
 foreach ($records as $record => $datos){
     if($record == $atletaMasJoven[0]){
-        $nombreAtletasMasJoven = $records[$record]['atleta'];
+        $nombreAtletasMasJoven = $datos['atleta'];
     }
 }
 ?>
-<p>Record més antic:  <?= $recorMasViejo ?></p>
+<p>Record més antic:  <?= $recordMasViejo ?></p>
 <p>Club amb més títols: <?= $clubMasLaureado ?></p>
 <p>Persona amb més records: <?= $personaMasLaureada ?> </p>
 <p>Ciutat més propicia: <?= $ciutatMasTitulos?></p>

@@ -210,14 +210,14 @@
  <body>
    <ul id="toolbar-filter">
      <li> <a href="#" title="Show all" onClick="showAllScenarios()">◯</a></li>
-     <li> <a href="#" title="Successful" onClick="toggleScenarios('scenarioSuccess', this.parentElement)"><strong>✔</strong> 28</a></li>
-     <li> <a href="#" title="Failed" onClick="toggleScenarios('scenarioFailed', this.parentElement)"><strong>✗</strong> 9</a></li>
+     <li> <a href="#" title="Successful" onClick="toggleScenarios('scenarioSuccess', this.parentElement)"><strong>✔</strong> 36</a></li>
+     <li> <a href="#" title="Failed" onClick="toggleScenarios('scenarioFailed', this.parentElement)"><strong>✗</strong> 10</a></li>
      <li> <a href="#" title="Skipped" onClick="toggleScenarios('scenarioSkipped', this.parentElement)"><strong>S</strong> 0</a></li>
      <li> <a href="#" title="Incomplete" onClick="toggleScenarios('scenarioIncomplete', this.parentElement)"><strong>I</strong> 0</a></li>
      <li> <a href="#" title="Useless" onClick="toggleScenarios('scenarioUseless', this.parentElement)"><strong>U</strong> 0</a></li>
    </ul>
  <div class="layout">
- <h1>Codeception Results <small><span style="color: #e74c3c">FAILED</span> (00:01.209)</small></h1>
+ <h1>Codeception Results <small><span style="color: #e74c3c">FAILED</span> (00:01.191)</small></h1>
 
 
 
@@ -229,7 +229,7 @@
 </tr>   <tr class="scenarioRow scenarioFailed">
     <td>
      <p class="scenarioFailed" onclick="showHide('1', this)"><span class="toggle">+</span>
-          <span class="quiet">ArraysCest &raquo;</span> Try230 works test <span style="color: #34495e; font-size: 70%;">0.06s</span></p>
+          <span class="quiet">ArraysCest &raquo;</span> Try230 works test <span style="color: #34495e; font-size: 70%;">0.1s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioFailed">
@@ -257,7 +257,7 @@
 </head><br />
 <body><br />
 <ul><br />
-    70043694373813310951247891939428643944148006475222083714775107560404347357661347606083972257124<br />
+    3291247719521875147682384751466244948679757424114697907268461841823585711016011897228178142885646<br />
 </ul><br />
 </body><br />
 </html><br />
@@ -277,7 +277,7 @@
    <tr class="scenarioRow scenarioFailed">
     <td>
      <p class="scenarioFailed" onclick="showHide('2', this)"><span class="toggle">+</span>
-          <span class="quiet">ArraysCest &raquo;</span> Try233 works test <span style="color: #34495e; font-size: 70%;">0.02s</span></p>
+          <span class="quiet">ArraysCest &raquo;</span> Try233 works test <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioFailed">
@@ -388,7 +388,7 @@
    <tr class="scenarioRow scenarioSuccess">
     <td>
      <p class="scenarioSuccess" onclick="showHide('5', this)"><span class="toggle">+</span>
-          <span class="quiet">BuclesCest &raquo;</span> Try220 works test <span style="color: #34495e; font-size: 70%;">0.02s</span></p>
+          <span class="quiet">BuclesCest &raquo;</span> Try220 works test <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
@@ -468,7 +468,7 @@
    <tr class="scenarioRow scenarioSuccess">
     <td>
      <p class="scenarioSuccess" onclick="showHide('7', this)"><span class="toggle">+</span>
-          <span class="quiet">BuclesCest &raquo;</span> Try222 works test <span style="color: #34495e; font-size: 70%;">0.03s</span></p>
+          <span class="quiet">BuclesCest &raquo;</span> Try222 works test <span style="color: #34495e; font-size: 70%;">0.02s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
@@ -522,7 +522,7 @@
    <tr class="scenarioRow scenarioSuccess">
     <td>
      <p class="scenarioSuccess" onclick="showHide('8', this)"><span class="toggle">+</span>
-          <span class="quiet">BuclesCest &raquo;</span> Try223 works test <span style="color: #34495e; font-size: 70%;">0.04s</span></p>
+          <span class="quiet">BuclesCest &raquo;</span> Try223 works test <span style="color: #34495e; font-size: 70%;">0.03s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
@@ -778,15 +778,234 @@
    </tr>
 
 
+   <tr class="scenarioRow scenarioFailed">
+    <td>
+     <p class="scenarioFailed" onclick="showHide('13', this)"><span class="toggle">+</span>
+          <span class="quiet">ExamenCest &raquo;</span> Try270 works test <span style="color: #34495e; font-size: 70%;">0.02s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioFailed">
+    <td>
+     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer13">
+
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I am on page <span style="color: #732E81">&quot;/270.php&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName failedStep">&nbsp;&nbsp;&nbsp;&nbsp;I see in source <span style="color: #732E81">&quot;&lt;!-- Capçalera de la taula --&gt; &lt;tr&gt;&lt;th&gt;Prova&lt;/th&gt;&quot;</span></td>
+      </tr>
+
+
+         <tr >
+    <td class="error">
+        Failed asserting that on page /270.php<br />
+--> <!DOCTYPE html><br />
+<html lang="es"><br />
+<body><br />
+<body><br />
+<table><br />
+    <thead><br />
+    <tr><th>Prova</th><br />
+        <th>Marca</th><br />
+        <th>Atleta</th><br />
+        <th>Natalici</th><br />
+        <th>Club</th><br />
+        <th>Data</th><br />
+        <th>Lloc</th><br />
+    </tr><br />
+    </thead><br />
+    <tbody><br />
+            <tr><td>100</td><br />
+       <br />
+[Content too long to display. See complete response in '/var/www/php/tests/_output/' directory]<br />
+--> contains "<!-- Capçalera de la taula --> <tr><th>Prova</th>".
+    </td>
+</tr>
+
+         
+         <tr><td class='error'>See <a href='ExamenCest.try270WorksTest.fail.html' target='_blank'>HTML snapshot</a> of a failed page</td></tr>
+     </table>
+
+
+    </td>
+   </tr>
+
+
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioSuccess" onclick="showHide('13', this)"><span class="toggle">+</span>
-          <span class="quiet">FuncionsCest &raquo;</span> Try243 works test <span style="color: #34495e; font-size: 70%;">0.03s</span></p>
+     <p class="scenarioSuccess" onclick="showHide('14', this)"><span class="toggle">+</span>
+          <span class="quiet">ExamenCest &raquo;</span> Try271 works test <span style="color: #34495e; font-size: 70%;">0.06s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer13">
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer14">
+
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I am on page <span style="color: #732E81">&quot;/271.php&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see <span style="color: #732E81">&quot;Prova&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see <span style="color: #732E81">&quot;Marca&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see in source <span style="color: #732E81">&quot;&lt;input id=&quot;natalici&quot; name=&quot;natalici&quot; placeholder=&quot;Any de naixement&quot; type=&quot;text&quot; class=&quot;form-control&quot;&gt;&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I don&#039;t see <span style="color: #732E81">&quot;La prova 500 no existeix en la llista de records oficials de la FEA&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I am on page <span style="color: #732E81">&quot;/271.php&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I fill field <span style="color: #732E81">&quot;prova&quot;,500</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I click <span style="color: #732E81">&quot;submit&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see <span style="color: #732E81">&quot;La prova 500 no existeix en la llista de records oficials de la FEA&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I am on page <span style="color: #732E81">&quot;/271.php&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I fill field <span style="color: #732E81">&quot;prova&quot;,200</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I fill field <span style="color: #732E81">&quot;marca&quot;,&quot;19:20&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I fill field <span style="color: #732E81">&quot;atleta&quot;,&quot;Ignasi Gomis Mullor&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I fill field <span style="color: #732E81">&quot;natalici&quot;,&quot;1968&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I fill field <span style="color: #732E81">&quot;club&quot;,&quot;POC A POC ALCOI&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I fill field <span style="color: #732E81">&quot;data&quot;,&quot;09.07.2022&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I fill field <span style="color: #732E81">&quot;lloc&quot;,&quot;Alcoi&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I click <span style="color: #732E81">&quot;submit&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I don&#039;t see <span style="color: #732E81">&quot;La prova 500 no existeix en la llista de records oficials de la FEA&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see in source <span style="color: #732E81">&quot;&lt;th&gt;Prova&lt;/th&gt; &lt;th&gt;Marca&lt;/th&gt; &lt;th&gt;Atleta&lt;/th&gt; &lt;th&gt;Natalici&lt;/th&gt; &lt;th&gt;Club&lt;/th&gt; &lt;th&gt;Data&lt;/th&gt; &lt;th&gt;Lloc&lt;/th&gt;&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see in source <span style="color: #732E81">&quot;&lt;tr&gt;&lt;td&gt;200&lt;/td&gt; &lt;td&gt;19:20&lt;/td&gt; &lt;td&gt;Ignasi Gomis Mullor&lt;/td&gt; &lt;td&gt;1968&lt;/td&gt; &lt;td&gt;POC A POC ALCOI&lt;/td&gt; &lt;td&gt;09.07.2022&lt;/td&gt; &lt;td&gt;Alcoi&lt;/td&gt; &lt;/tr&gt;&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see in source <span style="color: #732E81">&quot;&lt;tr&gt;&lt;td&gt;1.500&lt;/td&gt; &lt;td&gt;3:28.76&lt;/td&gt; &lt;td&gt;Mohamed Katir El Haouzi&lt;/td&gt; &lt;td&gt;1998&lt;/td&gt; &lt;td&gt;Playas de Castellón&lt;/td&gt; &lt;td&gt;09.07.2021&lt;/td&gt; &lt;td&gt;Mónaco&lt;/td&gt; &lt;/tr&gt;&quot;</span></td>
+      </tr>
+
+
+         
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <p class="scenarioSuccess" onclick="showHide('15', this)"><span class="toggle">+</span>
+          <span class="quiet">ExamenCest &raquo;</span> Try272 works test <span style="color: #34495e; font-size: 70%;">0.02s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer15">
+
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I am on page <span style="color: #732E81">&quot;/272.php&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see <span style="color: #732E81">&quot;Record més antic: Altura&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see <span style="color: #732E81">&quot;Club amb més títols: Playas de Castellón&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see <span style="color: #732E81">&quot;Persona amb més records: Bruno Hortelano Roig&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see <span style="color: #732E81">&quot;Ciutat més propicia: Mónaco&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see <span style="color: #732E81">&quot;Mes jove en aconsegir el record: Jordan Alejandro Diaz Fortún - 21 anys&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see in source <span style="color: #732E81">&quot;&lt;th&gt;Prova&lt;/th&gt; &lt;th&gt;Marca&lt;/th&gt; &lt;th&gt;Atleta&lt;/th&gt; &lt;th&gt;Natalici&lt;/th&gt; &lt;th&gt;Club&lt;/th&gt; &lt;th&gt;Data&lt;/th&gt; &lt;th&gt;Lloc&lt;/th&gt;&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see in source <span style="color: #732E81">&quot;&lt;tr&gt;&lt;td&gt;1.500&lt;/td&gt; &lt;td&gt;3:28.76&lt;/td&gt; &lt;td&gt;Mohamed Katir El Haouzi&lt;/td&gt; &lt;td&gt;1998&lt;/td&gt; &lt;td&gt;Playas de Castellón&lt;/td&gt; &lt;td&gt;09.07.2021&lt;/td&gt; &lt;td&gt;Mónaco&lt;/td&gt; &lt;/tr&gt;&quot;</span></td>
+      </tr>
+
+
+         
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <p class="scenarioSuccess" onclick="showHide('16', this)"><span class="toggle">+</span>
+          <span class="quiet">FuncionsCest &raquo;</span> Try243 works test <span style="color: #34495e; font-size: 70%;">0.02s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer16">
 
 
       <tr>
@@ -822,13 +1041,13 @@
 
    <tr class="scenarioRow scenarioFailed">
     <td>
-     <p class="scenarioFailed" onclick="showHide('14', this)"><span class="toggle">+</span>
-          <span class="quiet">FuncionsCest &raquo;</span> Try244 works test <span style="color: #34495e; font-size: 70%;">0.03s</span></p>
+     <p class="scenarioFailed" onclick="showHide('17', this)"><span class="toggle">+</span>
+          <span class="quiet">FuncionsCest &raquo;</span> Try244 works test <span style="color: #34495e; font-size: 70%;">0.04s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioFailed">
     <td>
-     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer14">
+     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer17">
 
 
       <tr>
@@ -873,13 +1092,13 @@
 
    <tr class="scenarioRow scenarioFailed">
     <td>
-     <p class="scenarioFailed" onclick="showHide('15', this)"><span class="toggle">+</span>
+     <p class="scenarioFailed" onclick="showHide('18', this)"><span class="toggle">+</span>
           <span class="quiet">FuncionsCest &raquo;</span> Try245 works test <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioFailed">
     <td>
-     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer15">
+     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer18">
 
 
       <tr>
@@ -910,13 +1129,13 @@
 
    <tr class="scenarioRow scenarioFailed">
     <td>
-     <p class="scenarioFailed" onclick="showHide('16', this)"><span class="toggle">+</span>
+     <p class="scenarioFailed" onclick="showHide('19', this)"><span class="toggle">+</span>
           <span class="quiet">FuncionsCest &raquo;</span> Try246 works test <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioFailed">
     <td>
-     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer16">
+     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer19">
 
 
       <tr>
@@ -945,13 +1164,13 @@
 
    <tr class="scenarioRow scenarioFailed">
     <td>
-     <p class="scenarioFailed" onclick="showHide('17', this)"><span class="toggle">+</span>
+     <p class="scenarioFailed" onclick="showHide('20', this)"><span class="toggle">+</span>
           <span class="quiet">FuncionsCest &raquo;</span> Try251 works test <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioFailed">
     <td>
-     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer17">
+     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer20">
 
 
       <tr>
@@ -980,13 +1199,13 @@
 
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioSuccess" onclick="showHide('18', this)"><span class="toggle">+</span>
+     <p class="scenarioSuccess" onclick="showHide('21', this)"><span class="toggle">+</span>
           <span class="quiet">PhpBasicCest &raquo;</span> Try201 works test <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer18">
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer21">
 
 
       <tr>
@@ -1010,13 +1229,13 @@
 
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioSuccess" onclick="showHide('19', this)"><span class="toggle">+</span>
-          <span class="quiet">PhpBasicCest &raquo;</span> Try202 works test <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
+     <p class="scenarioSuccess" onclick="showHide('22', this)"><span class="toggle">+</span>
+          <span class="quiet">PhpBasicCest &raquo;</span> Try202 works test <span style="color: #34495e; font-size: 70%;">0.02s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer19">
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer22">
 
 
       <tr>
@@ -1056,13 +1275,13 @@
 
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioSuccess" onclick="showHide('20', this)"><span class="toggle">+</span>
-          <span class="quiet">PhpBasicCest &raquo;</span> Try203 works test <span style="color: #34495e; font-size: 70%;">0.04s</span></p>
+     <p class="scenarioSuccess" onclick="showHide('23', this)"><span class="toggle">+</span>
+          <span class="quiet">PhpBasicCest &raquo;</span> Try203 works test <span style="color: #34495e; font-size: 70%;">0.02s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer20">
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer23">
 
 
       <tr>
@@ -1134,13 +1353,13 @@
 
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioSuccess" onclick="showHide('21', this)"><span class="toggle">+</span>
-          <span class="quiet">PhpBasicCest &raquo;</span> Try204 works test <span style="color: #34495e; font-size: 70%;">0.03s</span></p>
+     <p class="scenarioSuccess" onclick="showHide('24', this)"><span class="toggle">+</span>
+          <span class="quiet">PhpBasicCest &raquo;</span> Try204 works test <span style="color: #34495e; font-size: 70%;">0.02s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer21">
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer24">
 
 
       <tr>
@@ -1180,13 +1399,13 @@
 
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioSuccess" onclick="showHide('22', this)"><span class="toggle">+</span>
-          <span class="quiet">PhpBasicCest &raquo;</span> Try205 works test <span style="color: #34495e; font-size: 70%;">0.02s</span></p>
+     <p class="scenarioSuccess" onclick="showHide('25', this)"><span class="toggle">+</span>
+          <span class="quiet">PhpBasicCest &raquo;</span> Try205 works test <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer22">
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer25">
 
 
       <tr>
@@ -1230,13 +1449,13 @@
 
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioSuccess" onclick="showHide('23', this)"><span class="toggle">+</span>
+     <p class="scenarioSuccess" onclick="showHide('26', this)"><span class="toggle">+</span>
           <span class="quiet">PhpBasicCest &raquo;</span> Try206 works test <span style="color: #34495e; font-size: 70%;">0.03s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer23">
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer26">
 
 
       <tr>
@@ -1284,13 +1503,13 @@
 
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioSuccess" onclick="showHide('24', this)"><span class="toggle">+</span>
+     <p class="scenarioSuccess" onclick="showHide('27', this)"><span class="toggle">+</span>
           <span class="quiet">PhpBasicCest &raquo;</span> Try207 works test <span style="color: #34495e; font-size: 70%;">0.02s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer24">
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer27">
 
 
       <tr>
@@ -1330,13 +1549,13 @@
 
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioSuccess" onclick="showHide('25', this)"><span class="toggle">+</span>
+     <p class="scenarioSuccess" onclick="showHide('28', this)"><span class="toggle">+</span>
           <span class="quiet">PhpBasicCest &raquo;</span> Try208 works test <span style="color: #34495e; font-size: 70%;">0.02s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer25">
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer28">
 
 
       <tr>
@@ -1376,13 +1595,13 @@
 
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioSuccess" onclick="showHide('26', this)"><span class="toggle">+</span>
-          <span class="quiet">PhpBasicCest &raquo;</span> Try209 works test <span style="color: #34495e; font-size: 70%;">0.03s</span></p>
+     <p class="scenarioSuccess" onclick="showHide('29', this)"><span class="toggle">+</span>
+          <span class="quiet">PhpBasicCest &raquo;</span> Try209 works test <span style="color: #34495e; font-size: 70%;">0.02s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer26">
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer29">
 
 
       <tr>
@@ -1430,74 +1649,8 @@
  </td>
 </tr>   <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioSuccess" onclick="showHide('27', this)">
-          <span class="quiet">FunctionsTest &raquo;</span> Test240 es parell <span style="color: #34495e; font-size: 70%;">0.02s</span></p>
-    </td>
-   </tr>
-   <tr class="scenarioRow scenarioSuccess">
-    <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer27">
-
-
-
-         
-         
-         
-     </table>
-
-
-    </td>
-   </tr>
-
-
-   <tr class="scenarioRow scenarioSuccess">
-    <td>
-     <p class="scenarioSuccess" onclick="showHide('28', this)">
-          <span class="quiet">FunctionsTest &raquo;</span> Test240array aleatori <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
-    </td>
-   </tr>
-   <tr class="scenarioRow scenarioSuccess">
-    <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer28">
-
-
-
-         
-         
-         
-     </table>
-
-
-    </td>
-   </tr>
-
-
-   <tr class="scenarioRow scenarioSuccess">
-    <td>
-     <p class="scenarioSuccess" onclick="showHide('29', this)">
-          <span class="quiet">FunctionsTest &raquo;</span> Test240count parells <span style="color: #34495e; font-size: 70%;">0s</span></p>
-    </td>
-   </tr>
-   <tr class="scenarioRow scenarioSuccess">
-    <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer29">
-
-
-
-         
-         
-         
-     </table>
-
-
-    </td>
-   </tr>
-
-
-   <tr class="scenarioRow scenarioSuccess">
-    <td>
      <p class="scenarioSuccess" onclick="showHide('30', this)">
-          <span class="quiet">FunctionsTest &raquo;</span> Test241 major <span style="color: #34495e; font-size: 70%;">0s</span></p>
+          <span class="quiet">ExamenTest &raquo;</span> Test270a <span style="color: #34495e; font-size: 70%;">0.02s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
@@ -1519,7 +1672,7 @@
    <tr class="scenarioRow scenarioSuccess">
     <td>
      <p class="scenarioSuccess" onclick="showHide('31', this)">
-          <span class="quiet">FunctionsTest &raquo;</span> Test241 concatenar <span style="color: #34495e; font-size: 70%;">0s</span></p>
+          <span class="quiet">ExamenTest &raquo;</span> Test272 fec ing <span style="color: #34495e; font-size: 70%;">0s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
@@ -1541,7 +1694,7 @@
    <tr class="scenarioRow scenarioSuccess">
     <td>
      <p class="scenarioSuccess" onclick="showHide('32', this)">
-          <span class="quiet">FunctionsTest &raquo;</span> Test242 digits <span style="color: #34495e; font-size: 70%;">0s</span></p>
+          <span class="quiet">ExamenTest &raquo;</span> Test272 vell <span style="color: #34495e; font-size: 70%;">0s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
@@ -1563,7 +1716,7 @@
    <tr class="scenarioRow scenarioSuccess">
     <td>
      <p class="scenarioSuccess" onclick="showHide('33', this)">
-          <span class="quiet">FunctionsTest &raquo;</span> Test242 digits n <span style="color: #34495e; font-size: 70%;">0s</span></p>
+          <span class="quiet">ExamenTest &raquo;</span> Test272 laureado <span style="color: #34495e; font-size: 70%;">0s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
@@ -1585,7 +1738,7 @@
    <tr class="scenarioRow scenarioSuccess">
     <td>
      <p class="scenarioSuccess" onclick="showHide('34', this)">
-          <span class="quiet">FunctionsTest &raquo;</span> Test242 lleva darrere <span style="color: #34495e; font-size: 70%;">0s</span></p>
+          <span class="quiet">ExamenTest &raquo;</span> Test273 jove <span style="color: #34495e; font-size: 70%;">0s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
@@ -1607,7 +1760,7 @@
    <tr class="scenarioRow scenarioSuccess">
     <td>
      <p class="scenarioSuccess" onclick="showHide('35', this)">
-          <span class="quiet">FunctionsTest &raquo;</span> Test242 lleva davant <span style="color: #34495e; font-size: 70%;">0s</span></p>
+          <span class="quiet">ExamenTest &raquo;</span> Test273 any <span style="color: #34495e; font-size: 70%;">0s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
@@ -1629,7 +1782,7 @@
    <tr class="scenarioRow scenarioSuccess">
     <td>
      <p class="scenarioSuccess" onclick="showHide('36', this)">
-          <span class="quiet">FunctionsTest &raquo;</span> Test243peseta2 euros <span style="color: #34495e; font-size: 70%;">0s</span></p>
+          <span class="quiet">FunctionsTest &raquo;</span> Test240 es parell <span style="color: #34495e; font-size: 70%;">0s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
@@ -1651,12 +1804,210 @@
    <tr class="scenarioRow scenarioSuccess">
     <td>
      <p class="scenarioSuccess" onclick="showHide('37', this)">
-          <span class="quiet">FunctionsTest &raquo;</span> Test243euro2 pesetes <span style="color: #34495e; font-size: 70%;">0s</span></p>
+          <span class="quiet">FunctionsTest &raquo;</span> Test240array aleatori <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
     <td>
      <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer37">
+
+
+
+         
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <p class="scenarioSuccess" onclick="showHide('38', this)">
+          <span class="quiet">FunctionsTest &raquo;</span> Test240count parells <span style="color: #34495e; font-size: 70%;">0s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer38">
+
+
+
+         
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <p class="scenarioSuccess" onclick="showHide('39', this)">
+          <span class="quiet">FunctionsTest &raquo;</span> Test241 major <span style="color: #34495e; font-size: 70%;">0s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer39">
+
+
+
+         
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <p class="scenarioSuccess" onclick="showHide('40', this)">
+          <span class="quiet">FunctionsTest &raquo;</span> Test241 concatenar <span style="color: #34495e; font-size: 70%;">0s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer40">
+
+
+
+         
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <p class="scenarioSuccess" onclick="showHide('41', this)">
+          <span class="quiet">FunctionsTest &raquo;</span> Test242 digits <span style="color: #34495e; font-size: 70%;">0s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer41">
+
+
+
+         
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <p class="scenarioSuccess" onclick="showHide('42', this)">
+          <span class="quiet">FunctionsTest &raquo;</span> Test242 digits n <span style="color: #34495e; font-size: 70%;">0s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer42">
+
+
+
+         
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <p class="scenarioSuccess" onclick="showHide('43', this)">
+          <span class="quiet">FunctionsTest &raquo;</span> Test242 lleva darrere <span style="color: #34495e; font-size: 70%;">0s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer43">
+
+
+
+         
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <p class="scenarioSuccess" onclick="showHide('44', this)">
+          <span class="quiet">FunctionsTest &raquo;</span> Test242 lleva davant <span style="color: #34495e; font-size: 70%;">0s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer44">
+
+
+
+         
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <p class="scenarioSuccess" onclick="showHide('45', this)">
+          <span class="quiet">FunctionsTest &raquo;</span> Test243peseta2 euros <span style="color: #34495e; font-size: 70%;">0s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer45">
+
+
+
+         
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <p class="scenarioSuccess" onclick="showHide('46', this)">
+          <span class="quiet">FunctionsTest &raquo;</span> Test243euro2 pesetes <span style="color: #34495e; font-size: 70%;">0s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer46">
 
 
 
@@ -1678,11 +2029,11 @@
       <table border="0">
        <tr>
         <td width="250" class="scenarioSuccess">Successful scenarios:</td>
-        <td class="scenarioSuccessValue"><strong>28</strong></td>
+        <td class="scenarioSuccessValue"><strong>36</strong></td>
        </tr>
        <tr>
         <td class="scenarioFailed">Failed scenarios:</td>
-        <td class="scenarioFailedValue"><strong>9</strong></td>
+        <td class="scenarioFailedValue"><strong>10</strong></td>
        </tr>
        <tr>
         <td class="scenarioSkipped">Skipped scenarios:</td>

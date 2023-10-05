@@ -1,6 +1,6 @@
 <?php
 include_once('atletes.php');
-global$records;
+global $records;
 ?>
 <body>
 <table>
